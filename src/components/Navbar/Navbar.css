@@ -1,0 +1,42 @@
+.logo-header-main {
+  color: rgb(235, 245, 238);
+  height:8vh;
+}
+a.nav-link {
+  color: green;
+  background-color: white;
+  border-radius: 8%;
+margin-left: 10px
+;}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+a.nav-link:hover{
+  color: whitesmoke;
+
+  background-color: green;
+  border-radius: 8%;
+}
+a.nav-link:focus {
+  color: #0d6efd;
+  background-color: #526475;
+}
+.fixed-top {
+  font-family: "GoogleSansRegular";
+}
+@media only screen and (max-width: 768px) {
+  .logo-header-main {
+    height: 6vh;
+  }
+  a.nav-link {
+    color: #555555;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #555555;
+  }
+  a.nav-link:hover,
+  a.nav-link:focus {
+    color: #0d6efd;
+    background-color: #e9ecef;
+  }
+}

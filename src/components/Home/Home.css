@@ -1,0 +1,56 @@
+.home-deco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('C:\Users\ns katari\Downloads\Stud-Hub-t\Stud-Hub-t\public\logo.svg');
+  background-size: cover;
+}
+
+.title-deco {
+  
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.stud-footer {
+  background-color: #FCF6F5;
+  color: #2BAE66;
+  padding: 20px 0;
+}
+
+.stud-footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.stud-footer li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stud-footer hr {
+  background-color: #2BAE66;
+  border-color: black;
+  margin: 20px 0;
+}
+
+.stud-footer h1 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}

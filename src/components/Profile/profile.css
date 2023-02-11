@@ -1,0 +1,35 @@
+.Profile .modal-header {
+  background-color: #2BAE66;
+  color: white;
+}
+
+.Profile .modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Profile .avatar {
+  margin-bottom: 20px;
+}
+
+.Profile .form-control {
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  border: none;
+}
+
+.Profile .input-group {
+  margin-bottom: 20px;
+}
+
+.Profile .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.Profile .btn {
+  background-color: white;
+  color: #2BAE66;
+}
